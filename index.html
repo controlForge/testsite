@@ -51,6 +51,16 @@
 .value::after {
   content: " AED Mill+";
 }
+@media only screen and (max-width: 600px) {
+  .custom_banner {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .custom_banner {
+    width: 40%;
+  }
+}
 </style>
 
 </head>
@@ -86,7 +96,7 @@ Welcome Slider
  	<div class="block">
  		<div class="mb-4">
  			<a href="#">
- 				<img src="images/banner/logo.jpg" width="50%"></img>
+ 				<img class="custom_banner" src="images/banner/logo.jpg"></img>
  			</a>
  		</div>
  		<p>Specialized in high-end, bespoke and luxurious villas in UAE serving a niche of UHNI realise their dream homes or investment projects in  UAE`s prime locations</p>
