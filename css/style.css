@@ -248,7 +248,7 @@ a:hover {
   text-transform: uppercase;
 }
 .btn-main:hover {
-  background: #2c9091;
+  background: #a98100;
   color: #fff;
 }
 
@@ -967,7 +967,7 @@ a:hover {
   height: auto;
 }
 .portfolio-block:hover:before {
-  opacity: 1;
+  opacity: 0;
 }
 .portfolio-block:hover .caption h4 {
   top: 45%;
